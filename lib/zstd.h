@@ -79,6 +79,10 @@ extern "C" {
   the future. Only static linking is allowed.
 *******************************************************************************/
 
+/** @defgroup version
+ *  @ingroup Introduction @{
+ */
+  
 /*------   Version   ------*/
 #define ZSTD_VERSION_MAJOR    1
 #define ZSTD_VERSION_MINOR    4
