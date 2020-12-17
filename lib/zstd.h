@@ -80,10 +80,9 @@ extern "C" {
 *******************************************************************************/
 
 /** @defgroup version
- *  @ingroup Introduction @{
+ *  @ingroup Introduction 
+ *  @{
  */
-  
-/*------   Version   ------*/
 #define ZSTD_VERSION_MAJOR    1
 #define ZSTD_VERSION_MINOR    4
 #define ZSTD_VERSION_RELEASE  7
