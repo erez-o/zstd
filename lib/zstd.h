@@ -35,7 +35,18 @@ extern "C" {
 #  define ZSTDLIB_API ZSTDLIB_VISIBILITY
 #endif
 
+/** @defgroup Introduction
+ *  zstd, short for Zstandard, is a fast lossless compression algorithm, targeting
+ *  real-time compression scenarios at zlib-level and better compression ratios.
+ *  The zstd compression library provides in-memory compression and decompression
+ *  functions.
+ *
+ *  The library supports regular compression levels from 1 up to ZSTD_maxCLevel(),
+ *  which is currently 22.
+ */
+/**@{*/
 
+  
 /*******************************************************************************
   Introduction
 
