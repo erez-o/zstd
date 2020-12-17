@@ -42,8 +42,10 @@ extern "C" {
  *  functions.
  *
  *  The library supports regular compression levels from 1 up to ZSTD_maxCLevel(),
- *  which is currently 22.
+ *  which is currently 22. 
+ *  @{
  */
+
   
 /*******************************************************************************
   Introduction
